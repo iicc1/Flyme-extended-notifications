@@ -3,7 +3,7 @@
 Public project to extend third party notifications in Meizu smartphones.
 
 
-[img]http://i.imgur.com/DraOhqp.jpg[/img]
+http://i.imgur.com/DraOhqp.jpg
 
 -------------------------------------------------------------------------------------------
 > XDA thread: http://forum.xda-developers.com/meizu-mx/general/mod-moreflymenotifications-expanded-t3108858
