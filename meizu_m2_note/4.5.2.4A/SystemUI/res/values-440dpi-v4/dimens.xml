@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notification_panel_header_height">58.0dip</dimen>
+    <dimen name="status_bar_expanded_header_datetime_padding_top">23.0dip</dimen>
+    <dimen name="status_bar_expanded_header_datetime_padding_left">22.0dip</dimen>
+    <dimen name="status_bar_clearallbutton_paddingtop">3.5dip</dimen>
+    <dimen name="status_bar_clearallbutton_paddingright">22.0dip</dimen>
+    <dimen name="notification_counter_padding_top">3.5dip</dimen>
+    <dimen name="battery_core_top">3.899994dip</dimen>
+    <dimen name="battery_core_bottom">3.899994dip</dimen>
+    <dimen name="battery_core_left">4.0dip</dimen>
+    <dimen name="battery_core_right">2.899994dip</dimen>
+    <dimen name="wifi_inout_padding_left">2.0dip</dimen>
+    <dimen name="wifi_inout_padding_right">0.0dip</dimen>
+    <dimen name="wifi_inout_padding_bottom">5.5dip</dimen>
+    <dimen name="mobile_type_padding_left">1.0dip</dimen>
+    <dimen name="mobile_type_padding_top">5.0dip</dimen>
+    <dimen name="mobile_inout_margin_left">-1.1999817dip</dimen>
+    <dimen name="mobile_inout_padding_top">5.0dip</dimen>
+    <dimen name="notification_header_height">32.0dip</dimen>
+    <dimen name="mz_recent_height">137.5dip</dimen>
+    <dimen name="notification_divider_width">344.0dip</dimen>
+    <dimen name="mz_recent_icon_size">60.0dip</dimen>
+    <dimen name="mz_third_icon_size">52.0dip</dimen>
+    <dimen name="mz_recent_icon_text_size">5.0sp</dimen>
+    <dimen name="mz_recent_land_transX">-130.0dip</dimen>
+    <dimen name="mz_recent_land_transY">-125.5dip</dimen>
+    <dimen name="recent_cell_padding_left_port">20.0dip</dimen>
+    <dimen name="recent_cell_padding_right_port">20.0dip</dimen>
+    <dimen name="recent_cell_padding_left_land">0.0dip</dimen>
+    <dimen name="recent_cell_padding_right_land">20.0dip</dimen>
+</resources>

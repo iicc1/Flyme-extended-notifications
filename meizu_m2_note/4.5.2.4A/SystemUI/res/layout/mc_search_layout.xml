@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mc_search_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/mc_search_icon" android:layout_width="@dimen/mc_search_icon_width" android:layout_height="@dimen/mc_search_icon_width" android:layout_marginLeft="@dimen/mc_search_icon_margin_left" android:src="@drawable/mc_header_icon_input_search" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <EditText android:textSize="@dimen/mc_search_edit_textsize" android:textColor="@color/mc_search_edit_textcolor" android:textColorHint="@color/mc_search_edit_hint_textcolor" android:id="@id/mc_search_edit" android:paddingLeft="@dimen/mc_search_edit_padding_left" android:paddingRight="@dimen/mc_search_edit_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mc_search_edit_margin_left" android:hint="@string/mc_search" android:singleLine="true" android:imeOptions="actionNone|flagNoFullscreen" />
+    <ImageView android:id="@id/mc_search_icon_input_clear" android:visibility="gone" android:layout_width="@dimen/mc_search_icon_width" android:layout_height="@dimen/mc_search_icon_width" android:layout_marginRight="@dimen/mc_search_icon_delete_margin_right" android:src="@drawable/mc_header_icon_input_clear" android:scaleType="centerInside" android:layout_alignRight="@id/mc_search_edit" android:layout_centerVertical="true" />
+</RelativeLayout>

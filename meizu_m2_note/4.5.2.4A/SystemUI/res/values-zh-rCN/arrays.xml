@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>未连接</item>
+        <item>正在扫描..</item>
+        <item>正在连接..</item>
+        <item>正在连接..</item>
+        <item>正在连接..</item>
+        <item>已连接</item>
+        <item>已暂停</item>
+        <item>正在断开连接..</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>未连接</item>
+        <item>正在扫描..</item>
+        <item>正在连接到 %1$s..</item>
+        <item>正在通过 %1$s 进行身份验证..</item>
+        <item>正在从 %1$s 获取 IP 地址..</item>
+        <item>已连接到 %1$s</item>
+        <item>已暂停</item>
+        <item>正在断开与 %1$s 的连接..</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>开放</item>
+        <item>WEP</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>WAPI CERT</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>弱</item>
+        <item>一般</item>
+        <item>较强</item>
+        <item>强</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>无</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>使用时间</item>
+        <item>启动次数</item>
+        <item>应用程序名称</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>屏幕关闭时休眠</item>
+        <item>永不休眠</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_simple_mrvl">
+        <item>仅2G</item>
+        <item>优先3G</item>
+        <item>优先4G</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_simple">
+        <item>自动</item>
+        <item>仅2G</item>
+        <item>仅3G</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_simple">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_simple_unicom">
+        <item>自动</item>
+        <item>仅2G</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_simple_unicom">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="mc_custom_time_picker_lunar_day">
+        <item>初一</item>
+        <item>初二</item>
+        <item>初三</item>
+        <item>初四</item>
+        <item>初五</item>
+        <item>初六</item>
+        <item>初七</item>
+        <item>初八</item>
+        <item>初九</item>
+        <item>初十</item>
+        <item>十一</item>
+        <item>十二</item>
+        <item>十三</item>
+        <item>十四</item>
+        <item>十五</item>
+        <item>十六</item>
+        <item>十七</item>
+        <item>十八</item>
+        <item>十九</item>
+        <item>廿十</item>
+        <item>廿一</item>
+        <item>廿二</item>
+        <item>廿三</item>
+        <item>廿四</item>
+        <item>廿五</item>
+        <item>廿六</item>
+        <item>廿七</item>
+        <item>廿八</item>
+        <item>廿九</item>
+        <item>三十</item>
+    </string-array>
+    <string-array name="mc_custom_time_picker_lunar_month">
+        <item>正</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>冬</item>
+        <item>腊</item>
+    </string-array>
+</resources>

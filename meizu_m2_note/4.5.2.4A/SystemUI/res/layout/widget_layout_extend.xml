@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.widgetnew.WidgetLayoutExtend android:gravity="center_vertical" android:id="@id/widget_layout_extend" android:background="@android:color/transparent" android:paddingLeft="15.0dip" android:paddingTop="12.0dip" android:paddingRight="15.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <com.android.systemui.statusbar.phone.widgetnew.SwapDragableGridView android:id="@id/widget_list" android:layout_width="fill_parent" android:layout_height="wrap_content" systemui:horizontalSpacing="@dimen/horizon_padding_portrait" systemui:verticalSpacing="@dimen/vertical_padding" systemui:numColumns="5" systemui:swapDuration="250" systemui:swapDelay="400" />
+</com.android.systemui.statusbar.phone.widgetnew.WidgetLayoutExtend>

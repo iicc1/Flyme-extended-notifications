@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.NotificationPanelView android:id="@id/notification_panel" android:background="#00000000" android:paddingTop="@dimen/notification_panel_padding_top" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/notification_panel_margin_left"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/close_handle_underlap" android:animateLayoutChanges="false">
+        <View android:layout_width="fill_parent" android:layout_height="@android:dimen/status_bar_height" />
+        <include android:layout_width="fill_parent" layout="@layout/status_bar_expanded_header" />
+        <View android:layout_gravity="bottom|center" android:background="@drawable/status_list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <include android:layout_width="fill_parent" layout="@layout/widget_layout_extend" />
+        <include android:visibility="gone" android:layout_width="fill_parent" layout="@layout/notification_header" />
+        <View android:id="@id/widget_notification_divider" android:background="@drawable/widget_notification_divider" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <View android:layout_gravity="bottom|center" android:id="@id/notification_header_divider" android:background="@drawable/status_list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="@flyme:dimen/mz_notification_base_padding_right" android:layout_marginEnd="@flyme:dimen/mz_notification_base_padding_right" />
+        <TextView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Network.EmergencyOnly" android:gravity="center" android:id="@id/emergency_calls_only" android:padding="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/flip_settings_stub" android:layout="@layout/flip_settings" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.android.systemui.statusbar.phone.PanelScrollView android:id="@id/scroll" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="ifContentScrolls">
+                <com.android.systemui.statusbar.policy.NotificationRowLayout android:id="@id/latestItems" android:layout_width="fill_parent" android:layout_height="wrap_content" systemui:rowHeight="@dimen/notification_row_min_height">
+                    <com.android.systemui.nfc.MzNfcP2pNotiView android:orientation="vertical" android:id="@id/mz_nfc_p2p_connected_noti" android:background="@flyme:drawable/notification_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="242.0dip" />
+                </com.android.systemui.statusbar.policy.NotificationRowLayout>
+            </com.android.systemui.statusbar.phone.PanelScrollView>
+        </FrameLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom|center" android:id="@id/handle" android:background="@drawable/notification_panel_handle" android:visibility="gone" android:layout_width="@dimen/close_handle_width" android:layout_height="@dimen/close_handle_height" />
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/carrier_label_height" layout="@layout/ext_carrier_label" />
+</com.android.systemui.statusbar.phone.NotificationPanelView>

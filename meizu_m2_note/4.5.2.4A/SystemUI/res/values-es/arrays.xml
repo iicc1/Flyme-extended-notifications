@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>No conectado</item>
+        <item>Analizando…</item>
+        <item>Conectando…</item>
+        <item>Conectando…</item>
+        <item>Conectando…</item>
+        <item>Conectado</item>
+        <item>Suspendido</item>
+        <item>Desconectando…</item>
+        <item>Desconectado</item>
+        <item>Sin éxito</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>No conectado</item>
+        <item>Analizando…</item>
+        <item>Conectando con %1$s…</item>
+        <item>Autenticando con %1$s…</item>
+        <item>Obteniendo dirección IP de %1$s…</item>
+        <item>Conectado con %1$s…</item>
+        <item>Suspendido</item>
+        <item>Desconectando de %1$s…</item>
+        <item>Desconectado</item>
+        <item>Sin éxito</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Abierto</item>
+        <item>WEP</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>CERT WAPI</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Deficiente</item>
+        <item>Adecuada</item>
+        <item>Buena</item>
+        <item>Excelente</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ninguno</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Tiempo de uso</item>
+        <item>Recuento de inicios</item>
+        <item>Nombre de aplic.</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Cuando se apaga la pantalla</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_simple">
+        <item>2G solo</item>
+        <item>Prioridad de 3G</item>
+        <item>Prioridad de 4G</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_simple">
+        <item>1</item>
+        <item>2</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_simple_unicom">
+        <item>Automática</item>
+        <item>2G solo</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_simple_unicom">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="mc_custom_time_picker_lunar_day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="mc_custom_time_picker_lunar_month">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+</resources>

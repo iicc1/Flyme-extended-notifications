@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/stat_sys_battery_charge" />
+    <item android:id="@id/battery_charing_background" android:drawable="@drawable/stat_sys_battery_background" />
+</layer-list>

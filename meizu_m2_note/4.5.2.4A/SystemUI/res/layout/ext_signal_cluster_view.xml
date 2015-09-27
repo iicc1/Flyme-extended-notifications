@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.SignalClusterView android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/wifi_combo" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.systemui.statusbar.AnimatedImageView android:id="@id/wifi_signal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="bottom|center|right" android:id="@id/wifi_inout" android:paddingLeft="@dimen/wifi_inout_padding_left" android:paddingRight="@dimen/wifi_inout_padding_right" android:paddingBottom="@dimen/wifi_inout_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <View android:id="@id/spacer" android:visibility="gone" android:layout_width="3.0dip" android:layout_height="6.0dip" />
+    <ViewStub android:id="@id/ext_mobile_combo_stub" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/airplane" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.android.systemui.statusbar.SignalClusterView>

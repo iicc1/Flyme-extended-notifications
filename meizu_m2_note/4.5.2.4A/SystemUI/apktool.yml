@@ -1,0 +1,17 @@
+version: 2.0.1
+apkFileName: SystemUI.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 10
+sdkInfo:
+  minSdkVersion: '22'
+  targetSdkVersion: '22'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '11'
+  versionName: '4.1'
+compressionType: false
+sharedLibrary: false

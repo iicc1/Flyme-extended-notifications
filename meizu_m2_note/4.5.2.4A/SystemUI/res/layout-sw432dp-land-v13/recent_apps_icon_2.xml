@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="108.0dip" android:layout_height="108.0dip" android:layout_marginLeft="-5.0dip" android:layout_marginTop="0.0dip" android:layout_marginBottom="10.699982dip" android:rotation="90.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|top" android:id="@id/lock" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:layout_marginRight="-4.0dip" android:src="@null" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="81.599976dip" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:id="@id/linear_image" android:layout_width="wrap_content" android:layout_height="58.5dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:scaleType="centerInside">
+            <com.android.systemui.mzrecent.MzHandleView android:gravity="center" android:layout_gravity="center" android:id="@id/image" android:layout_width="57.599976dip" android:layout_height="57.599976dip" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#ffe5e5e5" android:ellipsize="end" android:gravity="center" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxWidth="81.599976dip" android:singleLine="true" android:shadowColor="#cc000000" android:shadowDy="2.0" android:shadowRadius="3.0" />
+    </LinearLayout>
+</LinearLayout>

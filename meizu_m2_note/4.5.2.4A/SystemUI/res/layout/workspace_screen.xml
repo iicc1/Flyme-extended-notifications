@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.mzrecent.MzCellLayout android:gravity="center|left" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/workspace_screen" android:paddingLeft="@dimen/recent_celll_layout_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/recent_celll_layout_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/linear1" layout="@layout/recent_apps_icon_2" />
+    <include android:id="@id/linear2" layout="@layout/recent_apps_icon_2" />
+    <include android:id="@id/linear3" layout="@layout/recent_apps_icon_2" />
+    <include android:id="@id/linear4" layout="@layout/recent_apps_icon_2" />
+</com.android.systemui.mzrecent.MzCellLayout>

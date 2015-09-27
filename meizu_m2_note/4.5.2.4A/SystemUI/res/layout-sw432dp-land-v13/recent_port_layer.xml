@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.mzrecent.MzDragLayer android:gravity="center|right|top" android:layout_gravity="center|right|top" android:orientation="horizontal" android:id="@id/layout" android:layout_width="432.0dip" android:layout_height="164.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:MzSlidingDrawer="http://schemas.android.com/apk/res/com.android.systemui">
+    <com.android.systemui.mzrecent.RecentSlidingDrawerLand android:layout_gravity="center|right|top" android:id="@id/recent_port_drawer " android:layout_width="144.0dip" android:layout_height="432.0dip" MzSlidingDrawer:orientation="horizontal" MzSlidingDrawer:handle="@id/handle" MzSlidingDrawer:content="@id/content" MzSlidingDrawer:allowSingleTap="false">
+        <TextView android:id="@id/handle" android:layout_width="0.0dip" android:layout_height="432.0dip" />
+        <FrameLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/content" android:duplicateParentState="true" android:layout_width="144.0dip" android:layout_height="432.0dip">
+            <com.android.systemui.mzrecent.WorkspaceItem android:layout_gravity="bottom" android:id="@id/workspace" android:layout_width="432.0dip" android:layout_height="144.0dip" android:translationX="-365.0px" android:translationY="-360.0px" android:rotation="-90.0">
+                <com.android.systemui.mzrecent.MzCellLayout android:gravity="left" android:orientation="vertical" android:id="@id/favours" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="144.0dip" android:translationX="-5.0px">
+                    <include android:id="@id/favor_page" layout="@layout/recent_favor_page" />
+                </com.android.systemui.mzrecent.MzCellLayout>
+            </com.android.systemui.mzrecent.WorkspaceItem>
+        </FrameLayout>
+    </com.android.systemui.mzrecent.RecentSlidingDrawerLand>
+</com.android.systemui.mzrecent.MzDragLayer>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>कनेक्‍ट नहीं है</item>
+        <item>स्‍कैन कर रहा है…</item>
+        <item>कनेक्‍ट कर रहा है…</item>
+        <item>कनेक्‍ट कर रहा है…</item>
+        <item>कनेक्‍ट कर रहा है…</item>
+        <item>कनेक्‍ट हो गया है</item>
+        <item>निलंबित</item>
+        <item>डिस्‍कनेक्‍ट कर रहा है…</item>
+        <item>डिस्‍कनेक्‍ट हो गया</item>
+        <item>असफल रहा</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>कनेक्‍ट नहीं है</item>
+        <item>स्‍कैन कर रहा है…</item>
+        <item>%1$s से कनेक्‍ट कर रहा है…</item>
+        <item>%1$s के साथ प्रमाणित कर रहा है…</item>
+        <item>%1$s से IP पता प्राप्‍त रहा है…</item>
+        <item>%1$s से कनेक्‍टेड है</item>
+        <item>निलंबित</item>
+        <item>%1$s से डाउनलोड कर रहा है…</item>
+        <item>डिस्‍कनेक्‍ट हो गया</item>
+        <item>असफल रहा</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>खोलें</item>
+        <item>WEP</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>WAPI CERT</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>खराब</item>
+        <item>सामान्‍य</item>
+        <item>अच्‍छा</item>
+        <item>मजबूत</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>कोई भी नहीं</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>उपयोग समय</item>
+        <item>लॉन्च काउंट</item>
+        <item>ऐप का नाम</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>जब स्क्रीन बंद हो</item>
+        <item>कभी नहीं</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_simple_mrvl">
+        <item>केवल 2G</item>
+        <item>3G फर्स्ट</item>
+        <item>4G फर्स्ट</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_simple">
+        <item>स्वतः</item>
+        <item>केवल 2G</item>
+        <item>केवल 3G</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_simple">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_simple_unicom">
+        <item>स्वतः</item>
+        <item>केवल 2G</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_simple_unicom">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="mc_custom_time_picker_lunar_day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="mc_custom_time_picker_lunar_month">
+        <item>जनवरी</item>
+        <item>फरवरी</item>
+        <item>मार्च</item>
+        <item>अप्रैल</item>
+        <item>मई</item>
+        <item>जून</item>
+        <item>जुलाई</item>
+        <item>अगस्त</item>
+        <item>सितंबर</item>
+        <item>अक्टूबर</item>
+        <item>नवंबर</item>
+        <item>दिसंबर</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notification_header" android:layout_width="fill_parent" android:layout_height="@dimen/notification_header_height" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <TextView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Text" android:id="@id/notification_counter" android:paddingLeft="@dimen/status_bar_expanded_header_datetime_padding_left" android:paddingTop="@dimen/notification_counter_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification_counter" android:singleLine="true" />
+    <ImageView android:layout_gravity="right" android:id="@id/clear_all_button_deprecated" android:paddingTop="@dimen/status_bar_clearallbutton_paddingtop" android:paddingRight="@dimen/status_bar_clearallbutton_paddingright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_notify_clear" android:contentDescription="@string/accessibility_clear_all" />
+</FrameLayout>

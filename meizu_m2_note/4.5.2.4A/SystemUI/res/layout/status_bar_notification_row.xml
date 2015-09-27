@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.ExpandableNotificationRow android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-92.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/left_menu" android:layout_width="92.0dip" android:layout_height="fill_parent">
+        <ImageView android:id="@id/disable_left" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/shield" android:scaleType="center" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/content_wrapper" android:layout_width="0.0dip" android:layout_height="wrap_content">
+        <View android:layout_gravity="center|top" android:id="@id/top_glow" android:background="@drawable/top_divider_glow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:alpha="0.0" />
+        <Button android:gravity="end" android:id="@id/veto" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginEnd="-80.0dip" />
+        <com.android.systemui.statusbar.LatestItemView android:id="@id/content" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.5dip">
+            <com.android.internal.widget.SizeAdaptiveLayout android:id="@id/adaptive" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.android.systemui.statusbar.LatestItemView>
+        <View android:layout_gravity="bottom|center" android:id="@id/bottom_glow" android:background="@drawable/bottom_divider_glow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:alpha="0.0" />
+        <View android:layout_gravity="bottom|center" android:background="@drawable/status_list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="@flyme:dimen/mz_notification_base_padding_right" android:layout_marginEnd="@flyme:dimen/mz_notification_base_padding_right" />
+        <TextView android:textSize="9.0dip" android:textStyle="bold" android:textColor="#ff00a040" android:layout_gravity="end|bottom|center" android:id="@id/debug_info" android:padding="2.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-condensed" />
+    </FrameLayout>
+    <LinearLayout android:id="@id/right_menu" android:layout_width="92.0dip" android:layout_height="fill_parent">
+        <ImageView android:id="@id/disable_right" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/shield" android:scaleType="center" />
+    </LinearLayout>
+</com.android.systemui.statusbar.ExpandableNotificationRow>

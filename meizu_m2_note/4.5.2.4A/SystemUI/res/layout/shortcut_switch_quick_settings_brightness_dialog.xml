@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/bg_widgetlayout_brightness" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="9.5dip" android:layout_marginBottom="15.0dip" android:src="@drawable/ic_widgetlayout_brightness" />
+    <SeekBar android:layout_gravity="center_vertical" android:id="@id/my_brightness_slider" android:background="@null" android:layout_width="255.0dip" android:layout_height="wrap_content" android:layout_marginEnd="21.0dip" style="@*flyme:style/Widget.Flyme.Light.SeekBar" />
+</LinearLayout>

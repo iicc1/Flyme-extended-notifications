@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/icon_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.systemui.statusbar.phone.widget.MyIconImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.android.systemui.statusbar.phone.widget.MyWidgeIconAnimationView android:id="@id/icon_animation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.android.systemui.statusbar.AnimatedImageViewMz android:id="@id/indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_light_off" />
+    <RelativeLayout android:id="@id/description_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.WidgetText" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/description_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/description" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="18.0dip" />
+</LinearLayout>

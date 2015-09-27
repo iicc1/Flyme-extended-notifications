@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/cdma_combo" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/cdma_mobile_active_data_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mobile_active_data_wrapper_margin_right" android:layout_marginBottom="@dimen/mobile_active_data_wrapper_margin_bottom">
+            <ImageView android:layout_gravity="top" android:id="@id/cdma_mobile_data_type" android:tag="mobile_data_type" android:paddingLeft="@dimen/mobile_type_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="bottom" android:id="@id/cdma_data_inout" android:tag="mobile_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mobile_inout_margin_left" android:layout_marginTop="@dimen/mobile_inout_margin_top" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/cdma_data_combo" android:layout_width="wrap_content" android:layout_height="@dimen/mobile_cdma_combo_height">
+                <ImageView android:layout_gravity="bottom|center|left" android:id="@id/cdma_data_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+                <ImageView android:layout_gravity="center|right" android:id="@id/cdma_data_signal" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/cdma_voice_combo" android:layout_width="wrap_content" android:layout_height="@dimen/mobile_cdma_combo_height">
+                <ImageView android:layout_gravity="center|left|top" android:id="@id/cdma_voice_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" />
+                <ImageView android:layout_gravity="center|right" android:id="@id/cdma_voice_signal" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/mobile_combo" android:tag="mobile_combo" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/mobile_active_data_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mobile_active_data_wrapper_margin_right" android:layout_marginBottom="@dimen/mobile_active_data_wrapper_margin_bottom">
+            <ImageView android:layout_gravity="top" android:id="@id/mobile_data_type" android:tag="mobile_data_type" android:paddingLeft="@dimen/mobile_type_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="bottom" android:id="@id/mobile_inout" android:tag="mobile_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mobile_inout_margin_left" android:layout_marginTop="@dimen/mobile_inout_margin_top" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center|right" android:id="@id/mobile_signal" android:tag="mobile_signal" android:paddingLeft="1.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <ImageView android:layout_gravity="center|left|top" android:id="@id/mobile_type" android:tag="mobile_type" android:paddingLeft="@dimen/mobile_type_padding_left" android:paddingTop="@dimen/mobile_type_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

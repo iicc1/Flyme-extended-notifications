@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#cc000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/floattouch_help_title" />
+    <ScrollView android:scrollbarSize="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/floattouch_help_1" android:scaleType="fitCenter" />
+                    <TextView android:textSize="18.0sp" android:textColor="#cc000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/floattouch_help_button_title_1" android:maxLines="1" />
+                    <TextView android:textSize="14.0sp" android:textColor="#7f000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/floattouch_help_button_summary_1" android:maxLines="2" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/floattouch_help_3" android:scaleType="fitCenter" />
+                    <TextView android:textSize="18.0sp" android:textColor="#cc000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/floattouch_help_button_title_3" android:maxLines="1" />
+                    <TextView android:textSize="14.0sp" android:textColor="#7f000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/floattouch_help_button_summary_3" android:maxLines="2" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/floattouch_help_6" android:scaleType="fitCenter" />
+                    <TextView android:textSize="18.0sp" android:textColor="#cc000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/floattouch_help_button_title_6" android:maxLines="1" />
+                    <TextView android:textSize="14.0sp" android:textColor="#7f000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/floattouch_help_button_summary_6" android:maxLines="2" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+                <Space android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.5" />
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/floattouch_help_4" android:scaleType="fitCenter" />
+                    <TextView android:textSize="18.0sp" android:textColor="#cc000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/floattouch_help_button_title_4" android:maxLines="1" />
+                    <TextView android:textSize="14.0sp" android:textColor="#7f000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/floattouch_help_button_summary_4" android:maxLines="2" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/floattouch_help_5" android:scaleType="fitCenter" />
+                    <TextView android:textSize="18.0sp" android:textColor="#cc000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/floattouch_help_button_title_5" android:maxLines="1" />
+                    <TextView android:textSize="14.0sp" android:textColor="#7f000000" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/floattouch_help_button_summary_5" android:maxLines="2" />
+                </LinearLayout>
+                <Space android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.5" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="300.0sp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/type" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/wifi_ssid" style="?android:attr/textAppearanceSmall" />
+            <EditText android:id="@id/ssid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textNoSuggestions" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/wifi_security" style="?android:attr/textAppearanceSmall" />
+            <Spinner android:entries="@array/wifi_security" android:id="@id/security" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_security" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/fields" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/eap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/wifi_eap_method" style="?android:attr/textAppearanceSmall" />
+                <Spinner android:entries="@array/wifi_eap_method" android:id="@id/method" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_eap_method" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/please_select_phase2" style="?android:attr/textAppearanceSmall" />
+                <Spinner android:entries="@array/wifi_phase2_entries" android:id="@id/phase2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/please_select_phase2" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/wifi_eap_ca_cert" style="?android:attr/textAppearanceSmall" />
+                <Spinner android:id="@id/ca_cert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_eap_ca_cert" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/wifi_eap_user_cert" style="?android:attr/textAppearanceSmall" />
+                <Spinner android:id="@id/user_cert" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_eap_user_cert" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/wifi_eap_identity" style="?android:attr/textAppearanceSmall" />
+                <EditText android:id="@id/identity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textNoSuggestions" />
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/wifi_eap_anonymous" style="?android:attr/textAppearanceSmall" />
+                <EditText android:id="@id/anonymous" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textNoSuggestions" />
+            </LinearLayout>
+            <TextView android:id="@id/passwordview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/wifi_password" style="?android:attr/textAppearanceSmall" />
+            <EditText android:id="@id/password" android:layout_height="48.0dip" android:hint="@string/wifi_password" android:password="true" style="@style/wifi_pw_edit_text" />
+            <Spinner android:entries="@array/wifi_wapi_psk_type" android:id="@id/wapi_psk_type" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/wifi_wapi_psk_type" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/wapi_cert" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/wifi_wapicertmanager" style="?android:attr/textAppearanceSmall" />
+            <Button android:id="@id/wapicert_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/wifi_certinstall" style="@*flyme:style/Widget.DeviceDefault.Light.Button.Meizu" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

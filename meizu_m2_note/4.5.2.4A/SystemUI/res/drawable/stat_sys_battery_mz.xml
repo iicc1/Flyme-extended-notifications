@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/stat_sys_battery_0_mz" android:maxLevel="700" />
+    <item android:drawable="@drawable/stat_sys_battery_10_mz" android:maxLevel="900" />
+    <item android:drawable="@drawable/status_bar_battery_mz" android:maxLevel="10000" />
+</level-list>

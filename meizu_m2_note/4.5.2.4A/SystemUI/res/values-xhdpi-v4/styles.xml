@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.StatusBar.Expanded.Text" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ccffffff</item>
+    </style>
+</resources>

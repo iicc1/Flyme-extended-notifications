@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/wifi_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/wifi_item_text_size" android:textColor="#ff999999" android:gravity="left" android:id="@id/name" android:singleLine="true" android:layout_weight="1.0" style="@style/wifi_item_label" />
+    <TextView android:textSize="@dimen/wifi_item_text_size" android:textColor="#ff333333" android:gravity="right" android:id="@id/value" android:singleLine="true" android:layout_weight="1.0" style="@style/wifi_item_label" />
+</LinearLayout>

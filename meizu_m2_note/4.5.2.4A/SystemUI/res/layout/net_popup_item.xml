@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/wifi_item_icon_margin_right" android:src="@drawable/stat_sys_wifi_signal_0" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff999999" android:ellipsize="end" android:gravity="center|right" android:id="@id/state" android:paddingRight="@dimen/wifi_item_state_padding_right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="92.0dip" android:singleLine="true" android:layout_toLeftOf="@id/icon" android:layout_centerVertical="true" />
+    <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:ellipsize="end" android:gravity="center|left" android:id="@id/name" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="@flyme:dimen/mz_list_item_height_small" android:layout_marginLeft="@dimen/wifi_item_text_margin_left" android:singleLine="true" android:layout_weight="1.0" android:layout_toLeftOf="@id/state" android:layout_alignParentLeft="true" />
+</RelativeLayout>

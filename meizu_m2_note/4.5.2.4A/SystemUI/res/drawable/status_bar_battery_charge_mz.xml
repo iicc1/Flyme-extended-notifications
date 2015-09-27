@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/battery_charge_animation_background" android:drawable="@drawable/stat_sys_battery_background" />
+    <item android:id="@id/battery_charge_animation_core" android:left="@dimen/battery_core_left" android:top="@dimen/battery_core_top" android:right="@dimen/battery_core_right" android:bottom="@dimen/battery_core_bottom">
+        <scale android:drawable="@drawable/stat_sys_battery_charge_core" android:scaleWidth="100%" android:scaleHeight="0%" android:scaleGravity="right" />
+    </item>
+</layer-list>

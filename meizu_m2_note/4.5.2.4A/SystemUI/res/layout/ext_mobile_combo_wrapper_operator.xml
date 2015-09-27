@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/mobile_combo" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="bottom" android:id="@id/sim_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:layout_marginBottom="6.5dip" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center|left" android:id="@id/mobile_signal" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="center|left" android:id="@id/mobile_inout" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="center|right" android:id="@id/mobile_type" android:paddingLeft="1.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/spacer_2" android:tag="spacer_2" android:visibility="gone" android:layout_width="3.0dip" android:layout_height="6.0dip" />
+    <LinearLayout android:id="@id/mobile_combo_2" android:tag="mobile_combo_2" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="bottom" android:id="@id/sim_indicator_2" android:tag="sim_indicator_2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:layout_marginBottom="6.5dip" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center|left" android:id="@id/mobile_signal_2" android:tag="mobile_signal_2" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="center|left" android:id="@id/mobile_inout_2" android:tag="mobile_inout_2" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="center|right" android:id="@id/mobile_type_2" android:tag="mobile_type_2" android:paddingLeft="1.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/spacer_3" android:tag="spacer_3" android:visibility="gone" android:layout_width="3.0dip" android:layout_height="6.0dip" />
+    <LinearLayout android:id="@id/mobile_combo_3" android:tag="mobile_combo_3" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="bottom" android:id="@id/sim_indicator_3" android:tag="sim_indicator_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:layout_marginBottom="6.5dip" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center|left" android:id="@id/mobile_signal_3" android:tag="mobile_signal_3" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="center|left" android:id="@id/mobile_inout_3" android:tag="mobile_inout_3" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="center|right" android:id="@id/mobile_type_3" android:tag="mobile_type_3" android:paddingLeft="1.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/spacer_4" android:tag="spacer_4" android:visibility="gone" android:layout_width="3.0dip" android:layout_height="6.0dip" />
+    <LinearLayout android:id="@id/mobile_combo_4" android:tag="mobile_combo_4" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="bottom" android:id="@id/sim_indicator_4" android:tag="sim_indicator_4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:layout_marginBottom="6.5dip" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center|left" android:id="@id/mobile_signal_4" android:tag="mobile_signal_4" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <com.android.systemui.statusbar.AnimatedImageView android:layout_gravity="center|left" android:id="@id/mobile_inout_4" android:tag="mobile_inout_4" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="center|right" android:id="@id/mobile_type_4" android:tag="mobile_type_4" android:paddingLeft="1.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

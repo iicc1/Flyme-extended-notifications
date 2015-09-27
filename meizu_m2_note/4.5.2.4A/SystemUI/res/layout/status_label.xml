@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/TextAppearance.StatusBar.PhoneStatus" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center|left" android:id="@id/status_title" android:paddingTop="1.6999817dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@flyme:dimen/status_bar_height" android:singleLine="true" android:includeFontPadding="false" android:alpha="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
