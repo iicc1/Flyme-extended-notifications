@@ -145,6 +145,7 @@ And thats it.
 Also you can recompile yourself if you want, I will put all the necesary tools to compile, recompile, edit,extract images, .dat files... in tool folder. But only if you want to do it by yourself or to learn. I will uploaded it done.
 
 
+You can "star" and follow me on GitHub if you liked the project ;)
 Regards.
 
 
