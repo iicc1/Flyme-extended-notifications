@@ -39,7 +39,7 @@ You can found some third party icons here: https://docs.google.com/spreadsheets/
 
 If your icon is not listed there, you can find it inside the apk file of the app. 
 Just change the extension from .apk to .zip, open it and search the icon it inside /res folder.
-Also you can try to create it with photosop or similars.
+Also you can try to create it with photoshop or similars.
 
 
 It has to be named "mz_stat_sys_<name of the app>.png".
@@ -137,8 +137,7 @@ And thats it.
 ----------------------------------------------------------------------------------------
 
 
->Remember that to modify a file you have to click on the pencil at the left, edit the file, go to the end of the page, add a title and a comment (what you want) and click on
-"propose changes". I will revise it an accept it as soon as I can.
+>Remember that to modify a file you have to click on the pencil at the left, edit the file, go to the end of the page  and click on "propose changes". I will revise it and accept it as soon as I can.
 
 
 >When some apps are included or when you request to me, I will recompile and publish it to the XDA thread.
@@ -146,6 +145,7 @@ Also you can recompile yourself if you want, I will put all the necesary tools t
 
 
 You can "star" and follow me on GitHub if you liked the project ;)
+
 Regards.
 
 
